@@ -1,0 +1,52 @@
+.conatiner{
+    
+    border: 2px solid black;
+    width: 750px;  
+    margin: 0 auto; /*Center the container*/
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.body{
+    margin: 20px;
+}
+.head{
+   text-align: center;
+}
+
+.head p{
+    font-size: 16px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse; /*Remove the spacing between table cells */
+}
+table td, table th {
+    border: 1px solid black;
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px){
+    .conatiner{
+        max-width: 90%; /* Adjust container width for smaller screens */
+    }
+
+    table td, table th{
+        padding: 6px; /* Adjust table cell padding */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        padding: 10px; /* Adjust container padding for smaller screens */
+    }
+
+    table td,
+    table th {
+        padding: 4px; /* Further adjust table cell padding */
+    }
+}
+
+
+
